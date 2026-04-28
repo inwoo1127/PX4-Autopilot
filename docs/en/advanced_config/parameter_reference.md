@@ -37338,6 +37338,7 @@ Amphenol AUAV differential / absolute pressure sensor (external I2C).
 - `1`: AUAV L05D
 - `2`: AUAV L10D
 - `3`: AUAV L30D
+- `4`: AUAV L60D
 
 | Reboot  | minValue | maxValue | increment | default | unit | Read-Only |
 | ------- | -------- | -------- | --------- | ------- | ---- | --------- |
