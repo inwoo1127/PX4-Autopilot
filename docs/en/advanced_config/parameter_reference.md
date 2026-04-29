@@ -22640,37 +22640,6 @@ Maximum descent rate.
 | ------ | -------- | -------- | --------- | ------- | ---- | --------- |
 | &nbsp; | 1.0      | 15.0     | 0.5       | 5.0     | m/s  | &nbsp;    |
 
-### FW_T_SPD_DEV_STD (`FLOAT`) {#FW_T_SPD_DEV_STD}
-
-Airspeed rate measurement standard deviation.
-
-For the airspeed filter in TECS.
-
-| Reboot | minValue | maxValue | increment | default | unit  | Read-Only |
-| ------ | -------- | -------- | --------- | ------- | ----- | --------- |
-| &nbsp; | 0.01     | 10.0     | 0.1       | 0.2     | m/s^2 | &nbsp;    |
-
-### FW_T_SPD_PRC_STD (`FLOAT`) {#FW_T_SPD_PRC_STD}
-
-Process noise standard deviation for the airspeed rate.
-
-This is defining the noise in the airspeed rate for the constant airspeed rate model
-of the TECS airspeed filter.
-
-| Reboot | minValue | maxValue | increment | default | unit  | Read-Only |
-| ------ | -------- | -------- | --------- | ------- | ----- | --------- |
-| &nbsp; | 0.01     | 10.0     | 0.1       | 0.2     | m/s^2 | &nbsp;    |
-
-### FW_T_SPD_STD (`FLOAT`) {#FW_T_SPD_STD}
-
-Airspeed measurement standard deviation.
-
-For the airspeed filter in TECS.
-
-| Reboot | minValue | maxValue | increment | default | unit | Read-Only |
-| ------ | -------- | -------- | --------- | ------- | ---- | --------- |
-| &nbsp; | 0.01     | 10.0     | 0.1       | 0.07    | m/s  | &nbsp;    |
-
 ### FW_T_STE_R_TC (`FLOAT`) {#FW_T_STE_R_TC}
 
 Specific total energy rate first order filter time constant.
