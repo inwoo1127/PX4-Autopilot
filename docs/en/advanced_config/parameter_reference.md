@@ -19135,24 +19135,6 @@ If no local position is available, home is set to the current position.
 | ------ | -------- | -------- | --------- | ------------ | ---- | --------- |
 | &nbsp; |          |          |           | Disabled (0) |      | &nbsp;    |
 
-### COM_IMB_PROP_ACT (`INT32`) {#COM_IMB_PROP_ACT}
-
-Imbalanced propeller failsafe mode.
-
-Action the system takes when an imbalanced propeller is detected by the failure detector.
-See also FD_IMB_PROP_THR to set the failure threshold.
-
-**Values:**
-
-- `-1`: Disabled
-- `0`: Warning
-- `1`: Return
-- `2`: Land
-
-| Reboot | minValue | maxValue | increment | default | unit | Read-Only |
-| ------ | -------- | -------- | --------- | ------- | ---- | --------- |
-| &nbsp; |          |          | 1         | 0       |      | &nbsp;    |
-
 ### COM_LKDOWN_TKO (`FLOAT`) {#COM_LKDOWN_TKO}
 
 Timeout for detecting a failure after takeoff.
@@ -19288,16 +19270,6 @@ By default disabled for safety reasons
 | Reboot | minValue | maxValue | increment | default      | unit | Read-Only |
 | ------ | -------- | -------- | --------- | ------------ | ---- | --------- |
 | &nbsp; |          |          |           | Disabled (0) |      | &nbsp;    |
-
-### COM_OBC_LOSS_T (`FLOAT`) {#COM_OBC_LOSS_T}
-
-Onboard computer connection loss timeout.
-
-Time-out to wait when onboard computer connection is lost before warning about loss connection
-
-| Reboot | minValue | maxValue | increment | default | unit | Read-Only |
-| ------ | -------- | -------- | --------- | ------- | ---- | --------- |
-| &nbsp; | 0        | 60       | 0.01      | 5.0     | s    | &nbsp;    |
 
 ### COM_OBL_RC_ACT (`INT32`) {#COM_OBL_RC_ACT}
 
