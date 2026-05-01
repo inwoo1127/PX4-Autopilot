@@ -19500,21 +19500,6 @@ Goal:
 | ------ | -------- | -------- | --------- | ------- | ---- | --------- |
 | &nbsp; | 0        | 30       | 0.1       | 1.0     | s    | &nbsp;    |
 
-### COM_TAKEOFF_ACT (`INT32`) {#COM_TAKEOFF_ACT}
-
-Action after TAKEOFF has been accepted.
-
-The mode transition after TAKEOFF has completed successfully.
-
-**Values:**
-
-- `0`: Hold
-- `1`: Mission (if valid)
-
-| Reboot | minValue | maxValue | increment | default | unit | Read-Only |
-| ------ | -------- | -------- | --------- | ------- | ---- | --------- |
-| &nbsp; |          |          |           | 0       |      | &nbsp;    |
-
 ### COM_THROW_EN (`INT32`) {#COM_THROW_EN}
 
 Enable throw-start.
@@ -45266,3 +45251,35 @@ ROS2 RMW_ZENOH_CPP Domain id.
 | Reboot | minValue | maxValue | increment | default | unit | Read-Only |
 | ------ | -------- | -------- | --------- | ------- | ---- | --------- |
 | &nbsp; | 0        | 232      |           | 0       |      | &nbsp;    |
+
+### ZENOH_PUB_CC (`INT32`) {#ZENOH_PUB_CC}
+
+Zenoh publisher congestion control (global default).
+
+| Reboot  | minValue | maxValue | increment | default | unit | Read-Only |
+| ------- | -------- | -------- | --------- | ------- | ---- | --------- |
+| &check; | 0        | 1        |           | 0       |      | &nbsp;    |
+
+### ZENOH_PUB_EXPR (`INT32`) {#ZENOH_PUB_EXPR}
+
+Zenoh publisher express mode (global default).
+
+| Reboot  | minValue | maxValue | increment | default | unit | Read-Only |
+| ------- | -------- | -------- | --------- | ------- | ---- | --------- |
+| &check; | 0        | 1        |           | 0       |      | &nbsp;    |
+
+### ZENOH_PUB_PRIO (`INT32`) {#ZENOH_PUB_PRIO}
+
+Zenoh publisher priority (global default).
+
+| Reboot  | minValue | maxValue | increment | default | unit | Read-Only |
+| ------- | -------- | -------- | --------- | ------- | ---- | --------- |
+| &check; | 1        | 7        |           | 5       |      | &nbsp;    |
+
+### ZENOH_PUB_REL (`INT32`) {#ZENOH_PUB_REL}
+
+Zenoh publisher reliability (global default).
+
+| Reboot  | minValue | maxValue | increment | default | unit | Read-Only |
+| ------- | -------- | -------- | --------- | ------- | ---- | --------- |
+| &check; | 0        | 1        |           | 0       |      | &nbsp;    |

@@ -181,7 +181,6 @@ The main operations and their commands are:
   ```
 
   Options are comma-separated `key=value` pairs:
-
   - `cc=drop|block` (congestion control)
   - `express=true|false` (batching behaviour)
   - `prio=real_time|interactive_high|interactive_low|data_high|data|data_low|background` (priority)
