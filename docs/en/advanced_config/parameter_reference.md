@@ -44124,6 +44124,21 @@ uavcan::equipment::range_sensor::Measurement
 | ------- | -------- | -------- | --------- | ------------ | ---- | --------- |
 | &check; |          |          |           | Disabled (0) |      | &nbsp;    |
 
+### UAVCAN_TRACE_EN (`INT32`) {#UAVCAN_TRACE_EN}
+
+UAVCAN event tracing.
+
+Enable logging of UAVCAN events
+
+**Values:**
+
+- `0`: Disabled
+- `1`: Enabled
+
+| Reboot  | minValue | maxValue | increment | default     | unit | Read-Only |
+| ------- | -------- | -------- | --------- | ----------- | ---- | --------- |
+| &check; |          |          |           | Enabled (1) |      | &nbsp;    |
+
 ## UUV Attitude Control
 
 ### UUV_HGT_B_DOWN (`INT32`) {#UUV_HGT_B_DOWN}
